@@ -1,0 +1,57 @@
+/*Service Container*/
+.servicePad {
+    padding: 10%;
+}
+
+
+p {
+    font-size: 18px;
+}
+/* Custom CSS for services section */
+     /* Custom CSS for services section */
+     .service {
+        border: 10px solid transparent;
+        background-color: #ffffff; /* White background for service container */
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        box-shadow: 0 20px 8px rgba(0,0,0,.1); /* Shadow effect */
+        transition: transform 3s ease; /* Smooth transition */
+        cursor: pointer; /* Cursor pointer for interaction */
+    }
+    
+    .centered-container {
+        text-align: center; /* Center text horizontally */
+        height: 100%; /* Ensure full height */
+    }
+    
+    .centered-container h2 {
+        display: inline-block; /* Ensure text is centered */
+    }
+    
+    .service h3 {
+        margin-top: 0;
+    }
+    
+    .service .description {
+        display: none; /* Hide description initially */
+    }
+    
+    .service.clicked .name {
+        display: none; /* Hide name when service is clicked */
+    }
+    
+    .service.clicked .description {
+        display: block; /* Show description when service is clicked */
+    }
+    
+
+/*Footer */
+
+    .contactLink2 {
+        color: #FFDD95;
+    }
+
+    .contactLink2:hover {
+    color: #BBE1FA;
+    }

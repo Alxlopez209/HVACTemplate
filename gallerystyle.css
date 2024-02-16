@@ -1,0 +1,65 @@
+
+h1 {
+    text-align: center;
+}
+img {
+    
+    overflow: contain;
+}
+
+.galleryH {
+    color: whitesmoke;
+}
+
+.contactLink2 {
+    color: #FFDD95;
+}
+
+.contactLink2:hover {
+  color: #BBE1FA;
+}
+
+/* CSS for the gallery section with modern 3D effect */
+.gallery h2 {
+    text-align: center; /* Center the text */
+}
+
+.gallery {
+    padding: 50px 0; /* Adjust padding as needed */
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    width: calc(33.3% - 20px);
+    margin: 10px;
+    overflow:hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    background-color: #333; /* Add background color to the image container */
+}
+
+.image:hover {
+    transform: scale(1.05); /* Scale up on hover for a 3D effect */
+}
+
+.image img {
+    width: 100%;
+    height: 50%;
+    object-fit:cover    ;
+    border-bottom: 2px solid #fff; /* Add border at the bottom */
+}
+
+.image p {
+    padding: 10px;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}

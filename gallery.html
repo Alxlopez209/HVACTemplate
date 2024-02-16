@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HVACWebsite</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./gallerystyle.css">
+</head>
+
+<body class="gradient-background">
+
+  <!--DROPDOWN MENU-->
+  <section id="stickyNav">
+    <div class="stickyNav">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="./HVACImages/sampleToolIcon.svg" alt="a sample tool icon" height="30px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <a class="btn MenuBtn" href="./index.html" role="button">Home</a>
+              <!--<a href="./index.html"><button class="btn MenuBtn" data-bs-toggle="dropdown" aria-expanded="false">Home</button></a>  -->        
+            </ul>
+            <ul class="navbar-nav"> 
+              <a class="btn MenuBtn" href="./gallery.html" role="button">Gallery</a>
+              <!-- <a href="./gallery.html"><button class="btn MenuBtn" data-bs-toggle="dropdown" aria-expanded="false">Gallery</button></a> -->
+            </ul>
+            <ul class="navbar-nav "> 
+              <a class="btn MenuBtn" href="./contact.html" role="button">Contact Us</a>
+              <!-- <a href=""><button class="btn MenuBtn" data-bs-toggle="dropdown" aria-expanded="false">Contact Us</button></a> -->
+            </ul>
+            <ul class="navbar-nav "> 
+              <a class="btn MenuBtn" href="./FAQ.html" role="button">FAQs</a>
+              <!-- <a href=""><button class="btn MenuBtn" data-bs-toggle="dropdown" aria-expanded="false">Contact Us</button></a> -->
+            </ul>
+            <ul class="navbar-nav Nowbtn"> 
+              <a href="">
+                <a class="btn Menu2 MenuBtn bookBtn" href="tel:#" role="button">Book Now!</a>
+                <!-- <button class="btn Menu2 MenuBtn bookBtn" data-bs-toggle="dropdown" aria-expanded="false">Book Now!</button></a> -->
+            </ul>
+          </div>
+          <div class= "navBook d-inlineflex align-items-center">
+            <a href="tel:#" style="text-decoration:none;">
+              <button class="btn btn-bd-primary bookBtn">
+                Book Now
+              </button>
+            </a>
+            <a href="tel:#" style="text-decoration:none;">
+              <button type="button" class="btn btn-bd-primary bookBtn">
+                CALL US
+              </button>
+            </a>
+        </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  
+  <!-- Title -->
+
+  <section id="title" class="">
+      <div class="container col-xxl-8 pt-5 px-4">
+          <div class="container col-lg-12 col-sm-6">
+            <div class="d-flex justify-content-center">
+              <a href="index.html" style="text-decoration: none"><h1 class="Company text-center display-5 fw-bold lh-1 mb-5 ">Our Work</h1></a>
+            </div>
+            
+            <div class="container buttons d-grid gap-3 d-md-flex justify-content-md-center pb-4">
+              <a style="text-decoration:none;" href="tel:#">
+                <button type="button" class="bookBtn btn rounded-pill  btn-dark btn-lg px-4 me-md-2"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
+                      <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"/>
+                    </svg> Book Appoinment
+                </button>
+              </a>  
+              
+            </div>
+          </div>
+        
+      </div>
+    
+  </section>
+<!--Gallery-->
+
+    <section>
+        <h1 class="galleryH my-5">Take A Look At Our Work!</h1>
+        <div class="container mb-5">
+            <div class="image-container">
+                <div class="image">
+                    <img src="./HVACImages/stockRepair1.jpeg" alt="stock Image 1" loading="lazy">
+                    <p>Heating Installation For Residential Home</p>
+                </div>
+                <div class="image">
+                    <img src="./HVACImages/stockRepair2.jpeg" alt="stock Image 2" loading="lazy">
+                    <p>AC Installation For Residential Home</p>
+                </div>
+                <div class="image">
+                    <img src="./HVACImages/stockRepair3.png" alt="stock Image 3" loading="lazy">
+                    <p>Duct and Vent Installment At Residential Home</p>
+                </div>     
+                <div class="image">
+                    <img src="./HVACImages/stockRepair4.jpeg" alt="stock Image 4" loading="lazy">
+                    <p>Duct and Vent Installment At Residential 2</p>
+                </div>
+                <div class="image">
+                    <img src="./HVACImages/stockRepair5.jpeg" alt="stock Image 5" loading="lazy">
+                    <p>Removal of Cieling Light At Residential Home</p>
+                </div>
+                <div class="image">
+                    <img src="./HVACImages/stockRepair6.jpeg" alt="stock Image 6" loading="lazy">
+                    <p>Post Installation of Cieling Fan Residential</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Footer -->
+
+
+
+  <section id="footer" class="gradient-background mb-0">
+    <div class="container mb-0">
+      <footer class="mb-0">
+        <div class="row">
+          <div class="d-flex justify-content-start align-items-end col-6">
+            <footer class="py-3 ">
+              <ul class="footLink1 nav justify-content-center pt-4 mt-5">
+                <li><a href="./index.html" class="footLink nav-link px-2" >Home</a></li>
+                <li><a href="./gallery.html" class="footLink nav-link px-2 ">Gallery</a></li>
+                <li><a href="./contact.html" class="footLink nav-link px-2 ">Contact Us</a></li>
+                <li><a href="./FAQ.html" class="footLink nav-link px-2 ">FAQs</a></li>
+                <li><a href="#" class="footLink nav-link px-2 ">About</a></li>
+              </ul>
+              
+            </footer>
+          </div>
+
+          <div class="d-flex justify-content-end col-6 mb-3 mt-5">
+            <form>
+              <h5 class="footAddress">Come Visit Us</h5>
+              <p class="footAddress">
+                9999 Lorem Dolor St 
+                <br>Duit, XP
+                <br>99999
+                <a class="footLink" style="text-decoration:none;" href="tel:#"><br> (###)###-####</a>
+
+              </p> 
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="copyRight d-flex flex-column flex-sm-row justify-content-between pt-3">
+          <p class="copyRight2">© 2024 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a href="https://twitter.com/" class="contactLink2" style="text-decoration:none">
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                </svg> 
+              </a>
+            </li>
+            <li class="ms-3">
+              <a href="mailto:mail@mail.mail" class="contactLink2" style="text-decoration:none"> 
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                </svg>    
+              </a>
+            </li>
+            <li class="ms-3">
+              <a href="tel:#" class="contactLink2" style="text-decoration:none"> 
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a href="https://www.facebook.com/" class="contactLink2" style="text-decoration:none"> 
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
