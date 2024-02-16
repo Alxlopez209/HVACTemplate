@@ -62,4 +62,15 @@ img {
     display: flex; /* Use flexbox */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
+    
 }
+@media (min-width: 330px) and (max-width: 447px) {
+    .image p{
+        font-size: 10px;
+    }
+  }
+@media (max-width: 446px) {
+    .image p{
+        font-size:8px;
+    }
+  }
