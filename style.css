@@ -123,7 +123,9 @@
   background-color: #FFB996;
 }
 .Company {
-  color: whitesmoke;
+  color: white;
+  font-size: 50px;
+
 }
 .EPA, .copyRight  {
   color: white;
@@ -170,7 +172,14 @@
   height: 1200px;
   opacity: ;
 }
-@media (max-width: 2190px) {
+
+.heroBtnCon {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+
+@media (max-width: 2190px) {  /*Beginning of Media Queries for heroCon*/
   .Himage { 
     height: 800px;
     opacity: ;
@@ -200,34 +209,94 @@
     height: 300px;
     opacity: ;
   }
+  .Company {
+    color: white;
+    font-size: 30px;
+  
+  }
   .heroCon {
-    top: 10%;
+    top: 45%;
+    
   } 
+  .heroBtnCon {
+    margin:0;
+  }
+
+  .heroBtnCon {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .HeroBtn {
+    font-size: 15px;
+  }
+  .SVG {
+    height: 15px;
+  }
 }
 @media (max-width: 446px) {
   .Himage { 
-    height: 150px;
+    height: 300px;
     opacity: ;
   }
-  .heroCon {
-    display: none;
-  } 
-}
-
-.mobileDiv {
-  display: flex;
-  justify-content: center;
+  .Company {
+    color: white;
+    font-size: 20px;
   
-}
-@media (min-width: 447px) {
-  #mobileView {
-    display: none;
   }
-  .features {
-    margin-top: 0px;
+
+  .heroCon {
+    top:50%;
+    
+  } 
+  .heroBtnCon {
+    margin:0;
+  }
+
+  .heroBtnCon {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .HeroBtn {
+    font-size: 10px;
+  }
+  .SVG {
+    height: 10px;
   }
 }
 
+@media (min-width: 130px) and (max-width: 370px) {
+  .Himage { 
+    height: 300px;
+    opacity: ;
+  }
+  .Company {
+    color: white;
+    font-size: 12px;
+  
+  }
+
+  .heroCon {
+    top:50%;
+    
+  } 
+  .heroBtnCon {
+    margin:0;
+  }
+
+  .heroBtnCon {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .HeroBtn {
+    font-size: 5px;
+  }
+  .SVG {
+    height: 10px;
+  }
+}                     /*End of Media Queries for heroCon*/
 
  /* Services */
 
