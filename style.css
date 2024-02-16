@@ -218,9 +218,6 @@
     top: 45%;
     
   } 
-  .heroBtnCon {
-    margin:0;
-  }
 
   .heroBtnCon {
     margin-top: 10px;
@@ -249,9 +246,6 @@
     top:50%;
     
   } 
-  .heroBtnCon {
-    margin:0;
-  }
 
   .heroBtnCon {
     margin-top: 10px;
@@ -266,7 +260,7 @@
   }
 }
 
-@media (min-width: 130px) and (max-width: 370px) {
+@media (min-width: 250px) and (max-width: 370px) {
   .Himage { 
     height: 300px;
     opacity: ;
@@ -281,9 +275,6 @@
     top:50%;
     
   } 
-  .heroBtnCon {
-    margin:0;
-  }
 
   .heroBtnCon {
     margin-top: 10px;
@@ -295,6 +286,35 @@
   }
   .SVG {
     height: 10px;
+  }
+}                     
+
+@media (min-width: 100px) and (max-width: 250px) {
+  .Himage { 
+    height: 300px;
+    opacity: ;
+  }
+  .Company {
+    color: white;
+    font-size: 8px;
+  
+  }
+
+  .heroCon {
+    top:30%;
+    
+  } 
+
+  .heroBtnCon {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+
+  .HeroBtn {
+    font-size: 5px;
+  }
+  .SVG {
+    height: 5px;
   }
 }                     /*End of Media Queries for heroCon*/
 
